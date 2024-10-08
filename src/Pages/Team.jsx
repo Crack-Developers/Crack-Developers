@@ -8,6 +8,7 @@ import cfo from "../assets/Team/ashik.jpeg"
 import cto from "../assets/Team/kani.jpeg"
 import cdm1 from "../assets/Team/partha.jpeg"
 import cdm2 from "../assets/Team/esakki.jpeg"
+import cdm3 from "../assets/Team/pro.jpg"
 import cdm from "../assets/Team/user.png" // Replace with the path to your banner image
 
 const teamMembers = [
@@ -36,7 +37,7 @@ const teamMembers = [
     facebook: '#'
   },
   {
-    name: 'Pardha Sarathi',
+    name: 'Pardha Saradhi M',
     position: 'Web Developement Team Head',
     image: cdm1, // Replace with actual image path
     linkedin: '#',
@@ -45,7 +46,7 @@ const teamMembers = [
   },
   {
     name: 'Esakki Raja M',
-    position: 'Dackend Developement Team Head',
+    position: 'Backend Developement Team Head',
     image: cdm2, // Replace with actual image path
     linkedin: '#',
     twitter: '#',
@@ -54,7 +55,7 @@ const teamMembers = [
   {
     name: 'Mohammed Asfar A',
     position: 'App Developement Team Head',
-    image: cdm, // Replace with actual image path
+    image: cdm3, // Replace with actual image path
     linkedin: '#',
     twitter: '#',
     facebook: '#'
