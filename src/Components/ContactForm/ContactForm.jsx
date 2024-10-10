@@ -12,14 +12,14 @@ const ContactForm = () => {
         e.preventDefault();
         console.log(name, email, message);
 
-        const serviceId = 'service_e4u54mx';
-        const templateId = 'template_823cbmc';
-        const publicKey = 'uil1ViUiT9_TzhRts';
+        const serviceId = 'service_4b3m67w';
+        const templateId = 'template_cwtnl7t';
+        const publicKey = '4AK_G8ie9sKNAFjA5';
 
         const templateParams = {
             from_name: name,
             from_email: email,
-            to_name: 'GowSan',
+            to_name: email,
             message: message,
         };
 

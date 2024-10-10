@@ -1,6 +1,13 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Contact = () => {
+  const navigate = useNavigate(); // Assuming you want to navigate to a contact page
+
+  const handleContactClick = () => {
+    navigate('/contact'); // Adjust this to your contact page route
+  };
+
   return (
     <div className="flex flex-col md:flex-row justify-between items-center w-full p-6 md:p-8 border border-gray-300 rounded-lg shadow-md">
       {/* Left Box */}
@@ -18,7 +25,7 @@ const Contact = () => {
         <p className="text-lg md:text-xl font-bold mb-6">
           Unlock the next level of your business with Crack Developers
         </p>
-        <button className="px-6 py-3 bg-black text-white rounded-md text-lg hover:bg-gray-800">
+        <button onClick={handleContactClick} className="px-6 py-3 bg-black text-white rounded-md text-lg hover:bg-gray-800">
           Contact Us
         </button>
       </div>
