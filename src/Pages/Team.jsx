@@ -55,7 +55,7 @@ const teamMembers = [
     linkedin: '#',
     twitter: '#',
     facebook: '#',
-    portfolio: 'https://minicodedev.github.io/EsakkiRaja.github.io/' // Add portfolio link here
+    portfolio: 'https://minicodedev.github.io/esakki-raja.github.io/' // Add portfolio link here
   },
   {
     name: 'Mohammed Asfar A',
