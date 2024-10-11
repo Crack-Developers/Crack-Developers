@@ -28,7 +28,7 @@ const teamMembers = [
     linkedin: '#',
     twitter: '#',
     facebook: '#',
-    portfolio: '/team' // Add portfolio link here
+    portfolio: 'https://minicodedev.github.io/Ashik-Christober.github.io/' // Add portfolio link here
   },
   {
     name: 'Kanishk KS',
@@ -64,7 +64,7 @@ const teamMembers = [
     linkedin: '#',
     twitter: '#',
     facebook: '#',
-    portfolio: 'https://minicodedev.github.io/my-personal-portfolio.github.io/' // Add portfolio link here
+    portfolio: 'https://minicodedev.github.io/mohammed-asfar.github.io/' // Add portfolio link here
   },
   {
     name: 'Karthik DB',
